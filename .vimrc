@@ -41,6 +41,9 @@ set ruler
 " Number of undo levels.
 set undolevels=1000
 
+" Show search results while typing.
+set incsearch
+
 " Enable syntax highlighting.
 syntax on
 
