@@ -37,3 +37,6 @@ syntax on
 
 " Enable file type detection and do language-dependant indenting.
 filetype plugin indent on
+
+" Adjust line number colours.
+highlight LineNr ctermfg=grey
