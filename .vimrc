@@ -55,3 +55,6 @@ filetype plugin indent on
 
 " Adjust line number colours.
 highlight LineNr ctermfg=8
+
+" Adjust search result colours.
+highlight Search ctermbg=7
