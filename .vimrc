@@ -32,6 +32,9 @@ set smartindent
 " Enable smart-tabs.
 set smarttab
 
+" Highlight all search results.
+set hlsearch
+
 " Enable syntax highlighting.
 syntax on
 
