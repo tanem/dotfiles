@@ -39,4 +39,4 @@ syntax on
 filetype plugin indent on
 
 " Adjust line number colours.
-highlight LineNr ctermfg=grey
+highlight LineNr ctermfg=8
