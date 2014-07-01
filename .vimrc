@@ -38,6 +38,9 @@ set hlsearch
 " Show row and column ruler information.
 set ruler
 
+" Number of undo levels.
+set undolevels=1000
+
 " Enable syntax highlighting.
 syntax on
 
