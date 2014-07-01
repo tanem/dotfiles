@@ -35,6 +35,9 @@ set smarttab
 " Highlight all search results.
 set hlsearch
 
+" Show row and column ruler information.
+set ruler
+
 " Enable syntax highlighting.
 syntax on
 
