@@ -35,6 +35,9 @@ set smarttab
 " Highlight all search results.
 set hlsearch
 
+" Ignore case in when searching.
+set ignorecase
+
 " Show row and column ruler information.
 set ruler
 
