@@ -47,6 +47,12 @@ set undolevels=1000
 " Show search results while typing.
 set incsearch
 
+" Always show status line.
+set laststatus=2
+
+" Reload files when changed on disk.
+set autoread
+
 " Enable syntax highlighting.
 syntax on
 
