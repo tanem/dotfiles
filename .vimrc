@@ -53,6 +53,10 @@ set laststatus=2
 " Reload files when changed on disk.
 set autoread
 
+" Start scrolling slightly before the cursor reaches an edge.
+set scrolloff=3
+set sidescrolloff=5
+
 " Enable syntax highlighting.
 syntax on
 
