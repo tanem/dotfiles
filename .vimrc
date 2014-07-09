@@ -2,6 +2,13 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+" 256 colours.
+set t_Co=256
+"
+" Dark solarized scheme.
+set background=dark
+colorscheme base16-solarized
+
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
 
@@ -48,23 +55,17 @@ set undolevels=1000
 set incsearch
 
 " Always show status line.
-set laststatus=2
+" set laststatus=2
 
 " Reload files when changed on disk.
 set autoread
 
 " Start scrolling slightly before the cursor reaches an edge.
-set scrolloff=3
-set sidescrolloff=5
+" set scrolloff=3
+" set sidescrolloff=5
 
 " Enable syntax highlighting.
 syntax on
 
 " Enable file type detection and do language-dependant indenting.
 filetype plugin indent on
-
-" Adjust line number colours.
-highlight LineNr ctermfg=8
-
-" Adjust search result colours.
-highlight Search ctermbg=7
