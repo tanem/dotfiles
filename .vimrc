@@ -55,7 +55,7 @@ set undolevels=1000
 set incsearch
 
 " Always show status line.
-" set laststatus=2
+set laststatus=2
 
 " Reload files when changed on disk.
 set autoread
