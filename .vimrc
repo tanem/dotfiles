@@ -1,13 +1,17 @@
 " Use Vim settings rather than Vi settings.
 " This must be first, because it changes other options as a side effect.
 set nocompatible
+set encoding=utf-8
+
+" Pathogen
+execute pathogen#infect()
 
 " 256 colours.
 set t_Co=256
-"
+
 " Dark solarized scheme.
 set background=dark
-colorscheme base16-solarized
+colorscheme base16-tomorrow
 
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
@@ -61,11 +65,14 @@ set laststatus=2
 set autoread
 
 " Start scrolling slightly before the cursor reaches an edge.
-" set scrolloff=3
-" set sidescrolloff=5
+set scrolloff=2
+set sidescrolloff=2
 
 " Enable syntax highlighting.
 syntax on
 
 " Enable file type detection and do language-dependant indenting.
 filetype plugin indent on
+
+" NERDTree trigger.
+map <C-n> :NERDTreeToggle<CR>
