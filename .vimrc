@@ -20,7 +20,7 @@ set backspace=indent,eol,start
 set number
 
 " Line wrap (number of cols).
-set textwidth=80
+" set textwidth=80
 
 " Use spaces instead of tabs.
 set expandtab
@@ -67,6 +67,11 @@ set autoread
 " Start scrolling slightly before the cursor reaches an edge.
 set scrolloff=2
 set sidescrolloff=2
+
+" Courtesy of Substack.
+set nowritebackup
+set noswapfile
+set nobackup
 
 " Enable syntax highlighting.
 syntax on
