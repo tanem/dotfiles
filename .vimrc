@@ -16,8 +16,8 @@ colorscheme base16-tomorrow
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
 
-" Show line numbers.
-set number
+" Show relative line numbers.
+set relativenumber
 
 " Line wrap (number of cols).
 " set textwidth=80
