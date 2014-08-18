@@ -20,7 +20,7 @@ set backspace=indent,eol,start
 set relativenumber
 
 " Line wrap (number of cols).
-" set textwidth=80
+set textwidth=80
 
 " Use spaces instead of tabs.
 set expandtab
