@@ -36,7 +36,7 @@ alias gst='git status'
 clonepersonal () {
   url=$1
   reponame=$(echo $url | awk -F/ '{print $NF}' | sed -e 's/.git$//')
-  sites
+  c
   git clone $url $reponame
   cd $reponame
   git config user.name tanem
