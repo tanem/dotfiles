@@ -24,7 +24,7 @@ alias gb='git branch'
 alias gbd='git branch -d'
 alias gcam='git commit -a -m'
 alias gcb='git checkout -b'
-alias gcl='git clone'
+alias gcl=clone
 alias gclp=clonepersonal
 alias gcm='git checkout master'
 alias gcmsg='git commit -m'
@@ -38,12 +38,16 @@ alias gp='git push'
 alias gst='git status'
 
 # Credit: http://stackoverflow.com/a/12059200
-function clonepersonal() {
+function clone() {
   url=$1
   reponame=$(echo $url | awk -F/ '{print $NF}' | sed -e 's/.git$//')
   c
   git clone $url $reponame
   cd $reponame
+}
+
+function clonepersonal() {
+  clone $1
   git config user.name tanem
   git config user.email tane.morgan@gmail.com
 }
