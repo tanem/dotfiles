@@ -1,4 +1,7 @@
-source ~/.git-prompt.sh
+PATH=$PATH:$HOME/bin
+
+source $HOME/bin/git-prompt.sh
+source $HOME/bin/git-completion.bash
 
 export PS1="\e[0;32m\u\e[m : \e[0;34m\W\e[0;36m\$(__git_ps1)\e[m $ "
 
