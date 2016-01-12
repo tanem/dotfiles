@@ -52,6 +52,7 @@ function clonepersonal() {
   git config user.email tane.morgan@gmail.com
 }
 
+# Credit: https://github.com/robbyrussell/oh-my-zsh/blob/master/lib/git.zsh#L63
 function git_current_branch() {
   local ref
   ref=$(command git symbolic-ref --quiet HEAD 2> /dev/null)
