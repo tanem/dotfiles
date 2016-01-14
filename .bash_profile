@@ -36,6 +36,8 @@ alias glo='git log --oneline --decorate --color'
 alias gm='git merge --no-ff'
 alias gp='git push'
 alias gst='git status'
+alias gsta='git stash'
+alias gstl='git stash list'
 
 # Credit: http://stackoverflow.com/a/12059200
 function clone() {
