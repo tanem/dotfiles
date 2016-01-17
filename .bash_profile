@@ -1,6 +1,9 @@
 PATH=$PATH:$HOME/bin
 
+# https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 source $HOME/bin/git-prompt.sh
+
+# https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 source $HOME/bin/git-completion.bash
 
 export PS1="\e[0;32m\u\e[m : \e[0;34m\W\e[0;36m\$(__git_ps1)\e[m $ "
