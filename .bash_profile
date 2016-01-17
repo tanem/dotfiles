@@ -22,6 +22,7 @@ alias ga='git add'
 alias gaa='git add --all'
 alias gb='git branch'
 alias gbd='git branch -d'
+alias gbdr=git_branch_delete_remote
 alias gcam='git commit -a -m'
 alias gcb='git checkout -b'
 alias gcl=clone
@@ -64,4 +65,9 @@ function git_current_branch() {
     ref=$(command git rev-parse --short HEAD 2> /dev/null) || return
   fi
   echo ${ref#refs/heads/}
+}
+
+function git_branch_delete_remote() {
+  git branch -d $1
+  git push origin --delete $1
 }
