@@ -26,7 +26,7 @@ alias gbdr=git_branch_delete_remote
 alias gcam='git commit -a -m'
 alias gcb='git checkout -b'
 alias gcl=clone
-alias gclp=clonepersonal
+alias gclp=clone_personal
 alias gcm='git checkout master'
 alias gcmsg='git commit -m'
 alias gco='git checkout'
@@ -49,7 +49,7 @@ function clone() {
   cd $reponame
 }
 
-function clonepersonal() {
+function clone_personal() {
   clone $1
   git config user.name tanem
   git config user.email tane.morgan@gmail.com
