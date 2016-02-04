@@ -33,6 +33,7 @@ alias gclp=clone_personal
 alias gcm='git checkout master'
 alias gcmsg='git commit -m'
 alias gco='git checkout'
+alias gcz='git cz'
 alias gd='git diff'
 alias ggpush='git push origin $(git_current_branch)'
 alias gl='git pull'
