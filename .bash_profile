@@ -11,8 +11,8 @@ export PS1="\e[0;32m\u\e[m : \e[0;34m\W\e[0;36m\$(__git_ps1)\e[m $ "
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
-alias eb='vim ~/.bash_profile'
-alias sb='. ~/.bash_profile'
+alias ebash='vim ~/.bash_profile'
+alias sbash='. ~/.bash_profile'
 
 alias ..='cd ..'
 alias l='ls -la'
