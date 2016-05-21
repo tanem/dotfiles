@@ -14,13 +14,16 @@ export NVM_DIR="$HOME/.nvm"
 alias ebash='vim ~/.bash_profile'
 alias sbash='. ~/.bash_profile'
 
+# filesystem
 alias ..='cd ..'
 alias l='ls -la'
 alias md='mkdir -p'
 
+# personal
 alias c='cd ~/Code'
 alias dc='cd ~/Dropbox/Code'
 
+# git 
 alias ga='git add'
 alias gaa='git add --all'
 alias gb='git branch'
